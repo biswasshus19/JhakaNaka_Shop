@@ -1,0 +1,11 @@
+@media only screen and (max-width: 676px){
+    .header-section{
+        flex-direction: column;
+        margin-left: 50px;
+        padding: 10px 0;
+    }
+    .items-container{
+        flex-direction: column;
+        margin-left: 50px;
+    }
+}
