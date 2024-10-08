@@ -151,3 +151,42 @@ body{
     padding: 5px;
     border-radius: 100%;
 }
+
+/* gallery section start here  */
+.gallery-section{
+    width: 1250px;
+    margin: 0 auto;
+}
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 10px;
+    align-content: center;
+}
+.single-gallery{
+    flex-basis: 400px;
+    border: 2px solid red;
+    border-radius: 5px;
+    text-align: center;
+}
+.single-gallery img{
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* footer section start here  */
+.footer-section{
+    background-color: #9376e0;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.footer-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-img{
+    width: 20px;
+}
